@@ -1,20 +1,22 @@
 # vue-cli-tailwind-boilerplate
 
+Boilerplate project with Vue CLI and Tailwind CSS integration.
+
 ## Commands used to generate this boilerplate
 
-Scaffolding a nice dev environment with Vue CLI:
+Scaffolded a development environment with Vue CLI:
 
 ```
 vue create vue-cli-tailwind-boilerplate
 ```
 
-Installing Tailwind CSS:
+Installed Tailwind CSS:
 
 ```
 npm install tailwindcss
 ```
 
-Create style.css file and import Tailwind:
+Created style.css file and imported Tailwind:
 
 ```css
 @tailwind base;
@@ -22,7 +24,7 @@ Create style.css file and import Tailwind:
 @tailwind utilities;
 ```
 
-Create file postcss.config.js and add:
+Created file postcss.config.js and added:
 
 ```js
 module.exports = {
@@ -33,7 +35,15 @@ module.exports = {
 }
 ```
 
-Deleting postcss entry from package.json
+Deleted postcss entry from package.json
+
+```json
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+```
 
 ### Compiles and hot-reloads for development
 ```
