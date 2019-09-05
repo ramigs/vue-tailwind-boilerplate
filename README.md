@@ -1,12 +1,31 @@
 # vue-cli-tailwind-boilerplate
 
+## Commands used to generate the project structure
+
+1. Scaffolding a nice dev environment with Vue CLI:
+
 ```
 vue create vue-cli-tailwind-boilerplate
 ```
 
+1. Installing Tailwind CSS:
+
 ```
 npm install tailwindcss
 ```
+
+1. Creating file postcss.config.js and add:
+
+```js
+module.exports = {
+    plugins: [
+        require('tailwindcss'),
+        require('autoprefixer')
+    ]
+}
+```
+
+1. Deleting postcss entry from package.json
 
 ## Project setup
 ```
