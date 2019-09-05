@@ -45,7 +45,7 @@ Deleted `postcss` entry from `package.json`
   },
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 npm install -g @vue/cli-service-global
 ```
