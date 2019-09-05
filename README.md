@@ -1,6 +1,6 @@
 # vue-cli-tailwind-boilerplate
 
-Boilerplate project with [Vue CLI](https://cli.vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) integration.
+Boilerplate project for [Vue CLI](https://cli.vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) integration.
 
 ## Commands used to generate this boilerplate
 
@@ -16,7 +16,7 @@ Installed Tailwind CSS:
 npm install tailwindcss
 ```
 
-Created file `style.css` and imported Tailwind:
+Created file `./assets/css/style.css` and imported Tailwind:
 
 ```css
 @tailwind base;
