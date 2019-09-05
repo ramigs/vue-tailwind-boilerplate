@@ -1,20 +1,28 @@
 # vue-cli-tailwind-boilerplate
 
-## Commands used to generate the project structure
+## Commands used to generate this boilerplate
 
-1. Scaffolding a nice dev environment with Vue CLI:
+Scaffolding a nice dev environment with Vue CLI:
 
 ```
 vue create vue-cli-tailwind-boilerplate
 ```
 
-1. Installing Tailwind CSS:
+Installing Tailwind CSS:
 
 ```
 npm install tailwindcss
 ```
 
-1. Creating file postcss.config.js and add:
+Create style.css file and import Tailwind:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+Create file postcss.config.js and add:
 
 ```js
 module.exports = {
@@ -25,32 +33,12 @@ module.exports = {
 }
 ```
 
-1. Deleting postcss entry from package.json
-
-## Project setup
-```
-npm install
-```
+Deleting postcss entry from package.json
 
 ### Compiles and hot-reloads for development
 ```
+npm install -g @vue/cli-service-global
+```
+```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
