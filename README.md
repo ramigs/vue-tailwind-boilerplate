@@ -1,5 +1,13 @@
 # vue-cli-tailwind-boilerplate
 
+```
+vue create vue-cli-tailwind-boilerplate
+```
+
+```
+npm install tailwindcss
+```
+
 ## Project setup
 ```
 npm install
