@@ -4,7 +4,7 @@ Boilerplate project for [Vue CLI](https://cli.vuejs.org/) and [Tailwind CSS](htt
 
 ## Commands used to generate this boilerplate
 
-Scaffolded a development environment with Vue CLI:
+Scaffolded project structure and development environment with Vue CLI:
 
 ```
 vue create vue-cli-tailwind-boilerplate
