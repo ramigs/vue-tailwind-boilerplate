@@ -1,6 +1,6 @@
 # vue-cli-tailwind-boilerplate
 
-Boilerplate project with Vue CLI and Tailwind CSS integration.
+Boilerplate project with [Vue CLI](https://cli.vuejs.org/) and [Tailwind CSS](https://tailwindcss.com/) integration.
 
 ## Commands used to generate this boilerplate
 
@@ -35,7 +35,7 @@ module.exports = {
 }
 ```
 
-Deleted postcss entry from `package.json`
+Deleted `postcss` entry from `package.json`
 
 ```json
   "postcss": {
