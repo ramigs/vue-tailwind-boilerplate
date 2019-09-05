@@ -16,7 +16,7 @@ Installed Tailwind CSS:
 npm install tailwindcss
 ```
 
-Created style.css file and imported Tailwind:
+Created file `style.css` and imported Tailwind:
 
 ```css
 @tailwind base;
@@ -24,7 +24,7 @@ Created style.css file and imported Tailwind:
 @tailwind utilities;
 ```
 
-Created file postcss.config.js and added:
+Created file `postcss.config.js` and added:
 
 ```js
 module.exports = {
@@ -35,7 +35,7 @@ module.exports = {
 }
 ```
 
-Deleted postcss entry from package.json
+Deleted postcss entry from `package.json`
 
 ```json
   "postcss": {
